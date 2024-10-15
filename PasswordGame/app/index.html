@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>The Password Game</title>
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <script src="/script.js"></script>
+  </head>
+  <body>
+     <img src="https://cdn.glitch.global/f449ed8c-042c-4e96-9b77-9e73012de107/17164515456134jgye5i6.png?v=1716451565739" alt="logo" id="logo">
+     <h1 class="flex-container">
+       The Password Game
+    </h1>
+    <br><br>
+    <br><br>
+    <h3 class="custom-margin">
+      Write the password
+    </h3>
+    
+    <form onsubmit="return validateForm()">
+      <div class="textbox-container">
+        <input type="textbox" id="textbox" name="textbox" oninput="checkLength()">
+        <input type="submit" id="submit" value="Làm tốt lắm thằng đần !!">
+      </div>
+        <div>
+      <p id="water-error" class="error"></p>
+      <p id="fire-error" class="error"></p>
+      <p id="egg-start-error" class="error"></p>
+      <p id="egg-error" class="error"></p>
+      <p id="month-error" class="error"></p>
+      <p id="sum-error" class="error"></p>
+      <p id="specialchar-error" class="error"></p>
+      <p id="number-error" class="error"></p>
+      <p id="uppercase-error" class="error"></p>
+      <p id="length-error" class="error"></p>
+    </div>
+    </form>
+  </body>
+  <footer>
+    <p>© 2024. All rights reserved.</p>
+  </footer>
+</html>

@@ -1,0 +1,76 @@
+body{
+  background-color: pink;
+}
+
+#logo{
+  position: fixed;
+  top: 20px; /* Điều chỉnh khoảng cách từ trên xuống */
+  left: 20px; /* Điều chỉnh khoảng cách từ trái sang phải */
+  width: 100px; /* Điều chỉnh chiều rộng */
+  height: auto; /* Tự động tính toán chiều cao dựa trên chiều rộng */
+  z-index: 999; /* Đảm bảo ảnh hiển thị trên các phần tử khác */
+}
+
+#textbox {
+            
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+#submit {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none; /* Ẩn nút submit */
+        }
+        .error {
+            margin-top: 5px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .valid {
+            color: green;
+            background-color: #e7f9e7;
+        }
+        .invalid {
+            color: red;
+            background-color: #f9e7e7;
+        }
+
+.flex-container {
+            display: flex;
+            justify-content: center; /* Căn giữa theo chiều ngang */
+            align-items: center; /* Căn giữa theo chiều dọc */
+            height: 10vh;
+            font-family: Comic Sans MS;
+}
+
+.textbox-container {
+            display: flex;
+            justify-content: center; /* Căn giữa theo chiều ngang */
+            align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.custom-margin {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Comic Sans MS;
+}
+footer {
+  background-color: #333; /* Màu nền của footer */
+  color: #fff; /* Màu chữ của footer */
+  padding: 5px; /* Khoảng cách giữa nội dung và viền của footer */
+  text-align: center; /* Canh giữa nội dung trong footer */
+  position: fixed; /* Đảm bảo footer hiển thị ở cuối trang */
+  left: 0;
+  bottom: 0;
+  width: 100%; /* Chiều rộng của footer là 100% của trang */
+}
